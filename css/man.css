@@ -28,7 +28,9 @@ html, body{
 	--dark-secondary: #ffffff75;
 	--dark-disable: #ffffff50;
 }
-
+.max-width{
+	padding:  0 3rem;
+}
 /*-------------------------------------BACKGROUNDS-------------------------------- */
 
 /* DARK THEME */
@@ -106,7 +108,7 @@ html, body{
 
 /* HEADER */
 .cart{
-	padding: 5rem 3rem;
+	padding-top: 5rem;
 }
 .cart .btn-floating {
 	height: 6rem;
@@ -118,11 +120,10 @@ html, body{
 	color: var(--light-primary);
 }
 .hello{
-	padding: 3rem;
 	letter-spacing: 3px;
 }
 .search{
- padding:  3rem;
+ padding-top: 1rem;
 }
 .search .ib-search{
    width: 100%;
@@ -146,8 +147,9 @@ html, body{
    margin-top: 1.5rem;
    margin-left: 1rem;
 }
+/* CATEGORIAS */
 .categorias{
-	padding: 3rem;
+	padding-top: 1rem;
 }
 .cat-img{
 	width: 97%;
