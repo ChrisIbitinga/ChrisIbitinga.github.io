@@ -181,3 +181,13 @@ html, body{
 	background-color: var(--light-primary);
 	color:var(--dark-primary);
 }
+footer{
+	background-color: var(--light-primary);
+}
+.footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	min-height: 50px;
+}
