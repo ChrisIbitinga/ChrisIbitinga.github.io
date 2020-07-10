@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+html, body{
+	font-family: 'Poppins', sans-serif;
+	height: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*------------------------------------ PALETA DE CORES-------------------------- */
+:root{
+    /* HELPERS */
+	--danger: #FF6857;
+	--success: #3BB77B ;
+	--info:#F9976A;
+
+	/* LIGHT THEME */
+	--bg-light: #f5f5f7;
+	--light-primary: #191C2D;
+	--light-secondary:#32385A;
+	--light-disable: #ABBAD8;
+
+	/* DARK THEME */
+	--bg-dark: #191C2D;
+	--dark-primary: #ffffff;
+	--dark-secondary: #ffffff75;
+	--dark-disable: #ffffff50;
+}
+
+/*-------------------------------------BACKGROUNDS-------------------------------- */
+
+/* DARK THEME */
+.bg-dark-primary{
+	background-color: var(--light-primary);
+}
+
+.bg-dark-secondary{
+	background-color: var(--light-secondary);
+}
+.bg-dark-disable{
+	background-color: var(--light-disable);
+}
+
+/*------------------------------------ CORES DE TEXTOS-------------------------  */
+/* TEXTO PARA TEMA LIGHT COM LETRAS ESCURAS */
+.txt-lp{
+	color: var(--light-primary);
+}
+.txt-ls{
+	color: var(--light-secondary);
+}
+.txt-ld{
+	color: var(--light-disable);
+}
+/* TEXTO PARA TEMA DARK COM LETRAS CLARAS */
+.txt-dp{
+	color: var(--dark-primary);
+}
+.txt-ds{
+	color: var(--dark-secondary);
+}
+.txt-dd{
+	color: var(--dark-disable);
+}
+/* TEXTO HELPERS */
+.txt-danger{
+	color: var(--danger);
+}
+.txt-success{
+	color: var(--success);
+}
+.txt-info{
+	color: var(--info);
+}
+/* TEXTOS HEADERS */
+.headline-bold{
+	font-weight: 600;
+	font-size: 32pt;
+}
+.headline-light{
+	font-weight: 300;
+	font-size: 32pt;
+}
+.title{
+	font-weight: 600;
+	font-size: 20pt;
+}
+.title-2{
+	font-weight: 600;
+	font-size: 14pt;
+}
+.body{
+	font-weight: 300;
+	font-size: 16pt;
+}
+.body-2{
+	font-weight: 300;
+	font-size: 12pt;
+}
+.caption{
+	font-weight: 300;
+	font-size: 11pt;
+}
+
+/* HEADER */
+.cart{
+	padding: 5rem 3rem;
+}
+.cart .btn-floating {
+	height: 6rem;
+	width:6rem;
+}
+.cart .btn-floating i{
+	font-size: 4rem;
+	padding-top: 1rem;
+	color: var(--light-primary);
+}
+.hello{
+	padding: 3rem;
+	letter-spacing: 3px;
+}
+.search{
+ padding:  3rem;
+}
+.search .ib-search{
+   width: 100%;
+   min-height: 120px!important;
+   padding:2rem;
+   border-radius: 50px!important;
+   background-color: var(--bg-light)!important;
+}
+.search input[type="search"].ib-search  {
+    -webkit-appearance: searchfield;
+    box-sizing: border-box;
+    padding: 1px 2px;
+   font-size: 50px!important;
+   color: var(--light-secondary);
+   padding-left: 6rem;
+   border-bottom: none!important;
+}
+.search i {
+   font-size: 5rem;
+   position: absolute;
+   margin-top: 1.5rem;
+   margin-left: 1rem;
+}
+.categorias{
+	padding: 3rem;
+}
+.cat-img{
+	width: 97%;
+	margin: 0 auto;
+	background-color: var(--light-primary);
+	border-radius: 12px;
+	margin-top:3rem;
+}
+.cat-container{
+	
+}
+.mais-pedidos{
+	padding: 3rem;
+}
+.box-card{
+	padding: 3rem;
+	border-radius: 30px;
+}
+.card,
+.card-image,
+.card-image img{
+	border-top-left-radius: 30px!important;
+	border-top-right-radius: 30px!important;
+}
+.card,
+.card-action{
+	border-bottom-left-radius: 30px!important;
+	border-bottom-right-radius: 30px!important;
+	background-color: var(--light-primary);
+	color:var(--dark-primary);
+}
