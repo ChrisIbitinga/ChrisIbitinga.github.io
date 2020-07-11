@@ -30,6 +30,7 @@ html, body{
 }
 .max-width{
 	padding:  0 3rem;
+	min-height: 100%;
 }
 /*-------------------------------------BACKGROUNDS-------------------------------- */
 
