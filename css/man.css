@@ -11,7 +11,7 @@ html, body{
 }
 /*------------------------------------ PALETA DE CORES-------------------------- */
 :root{
-    /* HELPERS */
+	/* HELPERS */
 	--danger: #FF6857;
 	--success: #3BB77B ;
 	--info:#F9976A;
@@ -123,29 +123,29 @@ html, body{
 	letter-spacing: 3px;
 }
 .search{
- padding-top: 1rem;
+	padding-top: 1rem;
 }
 .search .ib-search{
-   width: 100%;
-   min-height: 120px!important;
-   padding:2rem;
-   border-radius: 50px!important;
-   background-color: var(--bg-light)!important;
+	width: 100%;
+	min-height: 120px!important;
+	padding:2rem;
+	border-radius: 50px!important;
+	background-color: var(--bg-light)!important;
 }
 .search input[type="search"].ib-search  {
-    -webkit-appearance: searchfield;
-    box-sizing: border-box;
-    padding: 1px 2px;
-   font-size: 50px!important;
-   color: var(--light-secondary);
-   padding-left: 6rem;
-   border-bottom: none!important;
+	-webkit-appearance: searchfield;
+	box-sizing: border-box;
+	padding: 1px 2px;
+	font-size: 50px!important;
+	color: var(--light-secondary);
+	padding-left: 6rem;
+	border-bottom: none!important;
 }
 .search i {
-   font-size: 5rem;
-   position: absolute;
-   margin-top: 1.5rem;
-   margin-left: 1rem;
+	font-size: 5rem;
+	position: absolute;
+	margin-top: 1.5rem;
+	margin-left: 1rem;
 }
 /* CATEGORIAS */
 .categorias{
@@ -182,13 +182,12 @@ html, body{
 	color:var(--dark-primary);
 }
 footer{
-	
-}
-.footer{
-	background-color: var(--light-primary);
 	position: absolute;
 	left: 0;
 	bottom: 0;
+}
+.footer{
+	background-color: var(--light-primary);
 	width: 100%;
 	min-height: 55px;
 }
