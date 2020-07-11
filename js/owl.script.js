@@ -5,16 +5,16 @@ $(document).ready(function(){
 		margin:10,
 		responsiveClass:true,
 		responsive:{
-			0:{
-				items:1,
+			414:{
+				items:2,
 				nav:true
 			},
-			600:{
-				items:2,
+			680:{
+				items:3,
 				nav:false
 			},
 			1000:{
-				items:5,
+				items:3,
 				nav:true,
 				loop:false
 			}

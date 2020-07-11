@@ -80,19 +80,21 @@ html, body{
 /* TEXTOS HEADERS */
 .headline-bold{
 	font-weight: 600;
-	font-size: 32pt;
+	font-size: 1.5rem;
+	margin: .5rem 0;
 }
 .headline-light{
 	font-weight: 300;
-	font-size: 32pt;
+	font-size:1.5rem;
+	margin: .5rem 0;
 }
 .title{
 	font-weight: 600;
-	font-size: 20pt;
+	font-size: 1.2rem;
 }
 .title-2{
 	font-weight: 600;
-	font-size: 14pt;
+	font-size: 1.1rem;
 }
 .body{
 	font-weight: 300;
@@ -109,15 +111,14 @@ html, body{
 
 /* HEADER */
 .cart{
-	padding-top: 5rem;
+	padding-top: 3rem;
 }
 .cart .btn-floating {
-	height: 6rem;
-	width:6rem;
+	height: 3rem;
+	width:3rem;
 }
 .cart .btn-floating i{
-	font-size: 4rem;
-	padding-top: 1rem;
+	font-size: 2.5rem;
 	color: var(--light-primary);
 }
 .hello{
@@ -128,7 +129,7 @@ html, body{
 }
 .search .ib-search{
 	width: 100%;
-	min-height: 120px!important;
+	min-height: 3.5rem!important;
 	padding:2rem;
 	border-radius: 50px!important;
 	background-color: var(--bg-light)!important;
@@ -137,50 +138,53 @@ html, body{
 	-webkit-appearance: searchfield;
 	box-sizing: border-box;
 	padding: 1px 2px;
-	font-size: 50px!important;
+	font-size: 1.8rem!important;
 	color: var(--light-secondary);
-	padding-left: 6rem;
+	padding-left: 4rem;
 	border-bottom: none!important;
 }
 .search i {
-	font-size: 5rem;
+	font-size: 3rem;
 	position: absolute;
-	margin-top: 1.5rem;
+	margin-top: .5rem;
 	margin-left: 1rem;
 }
 /* CATEGORIAS */
 .categorias{
-	padding-top: 1rem;
-}
+/* 	padding-top: 1rem;
+ */}
 .cat-img{
-	width: 97%;
-	margin: 0 auto;
 	background-color: var(--light-primary);
 	border-radius: 12px;
-	margin-top:3rem;
+	margin-top:1rem;
 }
 .cat-container{
 	
 }
 .mais-pedidos{
-	padding: 3rem;
+	/* padding: 1rem; */
 }
 .box-card{
-	padding: 3rem;
 	border-radius: 30px;
 }
 .card,
 .card-image,
 .card-image img{
-	border-top-left-radius: 30px!important;
-	border-top-right-radius: 30px!important;
+	border-top-left-radius: 10px!important;
+	border-top-right-radius: 10px!important;
 }
 .card,
 .card-action{
-	border-bottom-left-radius: 30px!important;
-	border-bottom-right-radius: 30px!important;
+	border-bottom-left-radius: 10px!important;
+	border-bottom-right-radius: 10px!important;
 	background-color: var(--light-primary);
 	color:var(--dark-primary);
+}
+.card-content{
+	padding: 0 4px!important;
+}
+.card-content h3{
+	margin-top: 6px;
 }
 footer{
 	position: absolute;
