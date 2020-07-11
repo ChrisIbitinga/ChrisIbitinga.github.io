@@ -182,12 +182,22 @@ html, body{
 	color:var(--dark-primary);
 }
 footer{
-	background-color: var(--light-primary);
+	
 }
 .footer{
+	background-color: var(--light-primary);
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	min-height: 50px;
+	min-height: 55px;
 }
+.footer i{
+	color: var(--dark-primary);
+	padding: 1.2rem;
+	font-size: 3.2rem;
+}
+.footer i.active{
+	color: var(--danger);
+}
+
