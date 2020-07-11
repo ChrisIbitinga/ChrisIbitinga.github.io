@@ -29,7 +29,7 @@ html, body{
 	--dark-disable: #ffffff50;
 }
 .max-width{
-	padding:  0 3rem;
+	padding:  0 1rem;
 	min-height: 100%;
 }
 /*-------------------------------------BACKGROUNDS-------------------------------- */

@@ -5,7 +5,7 @@ $(document).ready(function(){
 		margin:10,
 		responsiveClass:true,
 		responsive:{
-			414:{
+			0:{
 				items:2,
 				nav:true
 			},
@@ -14,7 +14,7 @@ $(document).ready(function(){
 				nav:false
 			},
 			1000:{
-				items:2,
+				items:3,
 				nav:true,
 				loop:false
 			}
